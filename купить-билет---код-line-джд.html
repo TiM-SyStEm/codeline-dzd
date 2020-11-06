@@ -755,7 +755,7 @@ l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
 var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","webpro","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
-window.Muse.assets.check($);
+window.Muse.assets.check($);*/
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();
 Muse.Utils.prepHyperlinks(true);
 Muse.Utils.resizeHeight('.browser_width');
@@ -764,7 +764,7 @@ Muse.Utils.fullPage('#page');
 Muse.Utils.initWidget('#widgetu2158', ['#bp_infinity', '#bp_960', '#bp_800', '#bp_720', '#bp_680', '#bp_500', '#bp_475', '#bp_360'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });
 $( '.breakpoint' ).registerBreakpoint();
 Muse.Utils.transformMarkupToFixBrowserProblems();
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};*/
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
 </script>
   <!-- RequireJS script -->
