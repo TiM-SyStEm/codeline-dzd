@@ -1,6 +1,6 @@
 div#container
 {
-   width: 1006px;
+   width: 732px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -101,7 +101,7 @@ input:focus, textarea:focus, select:focus
 #Button1
 {
    box-sizing: border-box;
-   line-height: 150px;
+   line-height: 119px;
    text-decoration: none;
    vertical-align: top;
    border: 1px solid #E21A1A;

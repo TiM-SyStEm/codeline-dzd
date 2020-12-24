@@ -1,6 +1,6 @@
 div#container
 {
-   width: 631px;
+   width: 731px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -119,19 +119,6 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FF0000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text3 div
-{
-   text-align: left;
-}
 #Button1
 {
    box-sizing: border-box;
@@ -151,4 +138,17 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    -webkit-appearance: none;
    margin: 0;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FF0000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
 }
