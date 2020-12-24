@@ -438,11 +438,11 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    vertical-align: top;
    width: 42px;
-   height: 108px;
+   height: 44px;
    color: #000000;
    font-family: Arial;
-   font-size: 9.3px;
-   line-height: 11px;
+   font-size: 8px;
+   line-height: 9px;
 }
 #Table5 .cell1
 {
@@ -451,12 +451,12 @@ input:focus, textarea:focus, select:focus
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: top;
-   width: 42px;
-   height: 108px;
+   width: 44px;
+   height: 44px;
    color: #000000;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 8px;
+   line-height: 9px;
 }
 #Table5 .cell2
 {
@@ -465,25 +465,11 @@ input:focus, textarea:focus, select:focus
    border: 1px #C0C0C0 solid;
    text-align: center;
    vertical-align: top;
-   width: 44px;
-   height: 108px;
+   height: 44px;
    color: #000000;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table5 .cell3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 1px #C0C0C0 solid;
-   text-align: center;
-   vertical-align: top;
-   height: 108px;
-   color: #000000;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 8px;
+   line-height: 9px;
 }
 #wb_Text5 
 {
@@ -719,7 +705,7 @@ input:focus, textarea:focus, select:focus
    left: 140px;
    top: 1126px;
    width: 323px;
-   height: 116px;
+   height: 51px;
    z-index: 16;
 }
 #PageHeader1
@@ -1904,8 +1890,8 @@ body
 }
 #Html2
 {
-   left: 2px;
-   top: 1040px;
+   left: 1px;
+   top: 1001px;
    width: 318px;
    height: 221px;
    visibility: visible;
