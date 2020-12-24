@@ -1,6 +1,6 @@
 div#container
 {
-   width: 964px;
+   width: 1478px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -75,7 +75,7 @@ input:focus, textarea:focus, select:focus
 #Button1
 {
    box-sizing: border-box;
-   line-height: 67px;
+   line-height: 159px;
    text-decoration: none;
    vertical-align: top;
    border: 1px solid #E21A1A;
@@ -86,7 +86,7 @@ input:focus, textarea:focus, select:focus
    font-family: Tahoma;
    font-weight: bold;
    font-style: normal;
-   font-size: 24px;
+   font-size: 35px;
    padding: 1px 6px 1px 6px;
    text-align: center;
    -webkit-appearance: none;
