@@ -84,22 +84,3 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-        #app > * {
-            border: 1px solid #E21A1A;
-        }
-
-        #app {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
-        #app > h1 {
-            grid-column: span 3;
-        }
-
-        .text {
-            grid-column: span 2;
-        }
-
-
-    

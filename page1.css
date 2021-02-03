@@ -84,6 +84,20 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Text3 
 {
    background-color: transparent;
@@ -91,49 +105,9 @@ input:focus, textarea:focus, select:focus
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   text-align: left;
+   text-align: center;
 }
 #wb_Text3 div
 {
-   text-align: left;
-}
-#Button1
-{
-   box-sizing: border-box;
-   line-height: 119px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #E21A1A;
-   border-radius: 4px;
-   background-color: #E21A1A;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 35px;
-   padding: 1px 6px 1px 6px;
    text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Button2
-{
-   box-sizing: border-box;
-   line-height: 119px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #E21A1A;
-   border-radius: 4px;
-   background-color: #E21A1A;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 35px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
 }

@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="container">
-<div id="Html1" style="position:absolute;left:47px;top:166px;width:536px;height:337px;z-index:3">
+<div id="Html1" style="position:absolute;left:15px;top:168px;width:601px;height:368px;z-index:3">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,24 +17,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    </head>
+    </style></head>
 <body>
-
-    <div id="app">
-
-        <div class="text">
-            <form>
-                <div class="form-group mx-3 my-3">
-
-            </form>
-        </div>
-
-        <div id="qrCodeOutput" class="text-center">
-            Здесь будет сгенерированный QR-код
-        </div>
-
-    </div>
- <script src="https://cosmic.mearie.org/2011/01/qrjs/qr.js"></script>
+<center><button onclick="speak()" style="outline: none; margin-botton: 10px; border: red; background-color: red; color: white; font-size: 30px; font-weight: bold;user-select: none;">Воспроизвести аудио!</button></center>
 <script>
 let code = localStorage.getItem("rmt_security");
 if(code != null){
@@ -57,29 +42,14 @@ else{
    document.write("<center><p style='color: red; font-size: 30px; font-weight: bold;user-select: none;'> БИЛЕТ НЕ ОПЛАЧЕН!</p></center>");
 }
 
-        /**
-         * Простая функция для получения DOM-элемента
-         *
-         * @param selector {string}
-         *
-         * @return HTMLElement
-         * */
-        const el = (selector) => document.querySelector(selector);
+//SPEAK
 
-
-        // при нажатии на кнопку
-            // получаем блок куда будет выводиться QR-код
-            let qrCodeOutput = el('#qrCodeOutput');
-
-            // получаем содержимое текстового поля
-            let text = gen_code;
-
-            // очищаем блок с QR-кодом
-            qrCodeOutput.innerHTML = "";
-
-            // и помещаем в него сгенерированный библиотекой QR-код
-            qrCodeOutput.append(QRCode.generateHTML(text, {}));
-
+function speak() {
+    console.log("@AUDIO PLAY");
+    let text = gen_code;
+    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
+    console.log("@AUDIO END");
+}
     </script>
 </body>
 </html></div>
