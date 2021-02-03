@@ -47,7 +47,11 @@ else{
 function speak() {
     console.log("@AUDIO PLAY");
     let text = gen_code;
-    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
+    /*speechSynthesis.speak(new SpeechSynthesisUtterance(text));*/
+    window.utterances = [];
+    var utterance = new SpeechSynthesisUtterance(text);
+    utterances.push( utterance );
+    speechSynthesis.speak( utterance );
     console.log("@AUDIO END");
 }
     </script>
