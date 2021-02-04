@@ -39,7 +39,8 @@ recognizer.onresult = function (event) {
   console.log("@READ PLAY");
   var result = event.results[event.resultIndex];
   if (result.isFinal) {
-         localStorage.setItem("codes", localStorage.getItem("codes") + result[0].transcript + "\n");
+      localStorage.setItem("codes", localStorage.getItem("codes") + result[0].transcript + "\n");
+      alert(result[0].transcript)
       console.log("@READ END");
   } else {
     console.log('Промежуточный результат: ', result[0].transcript);
