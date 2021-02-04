@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<link href="web-fast-blank.css" rel="stylesheet">
+<link href="page1.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div id="wb_Image2" style="position:absolute;left:0px;top:58px;width:619px;height:311px;z-index:0;">
+<img src="images/04071433.jpg" id="Image2" alt=""></div>
+<div id="Html1" style="position:absolute;left:0px;top:401px;width:619px;height:361px;z-index:1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </style></head>
+<body>
+</html></div>
+<div id="Html2" style="position:absolute;left:152px;top:7px;width:315px;height:34px;z-index:2">
+<script>  
+setInterval(function () {  
+       date = new Date(),  
+ 	  h = date.getHours(),  
+          m = date.getMinutes(),  
+ 	  s = date.getSeconds(),  
+ 	  h = (h < 10) ? '0' + h : h,  
+ 	m = (m < 10) ? '0' + m : m,  
+ 	  s = (s < 10) ? '0' + s : s,  
+        document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
+}, 1000);
+</script>
+
+<span style="color:#E21A1A; font-size:18pt; background:none; padding:5px; font-family: Tahoma; font-weight: bold;">
+<span id="time"></span>
+</span>
+<script>  
+    setInterval(function () {  
+
+        Data = new Date();
+        Year = Data.getFullYear();
+        Month = Data.getMonth();
+        Day = Data.getDate();
+
+        // Преобразуем месяца
+        switch (Month)
+        {
+              case 0: fMonth="января"; break;
+               case 1: fMonth="февраля"; break;
+               case 2: fMonth="марта"; break;
+               case 3: fMonth="апреля"; break;
+               case 4: fMonth="мае"; break;
+               case 5: fMonth="июня"; break;
+               case 6: fMonth="июля"; break;
+               case 7: fMonth="августа"; break;
+               case 8: fMonth="сентября"; break;
+                case 9: fMonth="октября"; break;
+                case 10: fMonth="ноября"; break;
+                case 11: fMonth="декабря"; break;
+        }
+ 
+        document.getElementById('calen').innerHTML = Day + " " + fMonth + " " + Year;  
+    }, 1000);
+</script>
+
+<span style="color:#E21A1A; font-size:14pt;background:none; padding:5px; font-family: Tahoma;  font-weight: bold;">
+<span id="calen"></span>
+</span></div>
+<div id="Html3" style="position:absolute;left:4px;top:873px;width:610px;height:557px;z-index:3">
+<script src="https://vk.com/js/api/openapi.js?168"></script>
+
+<!-- VK Widget -->
+<center><div id="vk_groups"></div></center>
+<script>
+VK.Widgets.Group("vk_groups", {mode: 4, width: "600", height: "700", color1: 'F9F9F9', color2: '2B2929', color3: 'FF0000'}, 164190768);
+</script></div>
+<div id="wb_Text3" style="position:absolute;left:4px;top:793px;width:593px;height:42px;text-align:center;z-index:4;">
+<span style="color:#FF0000;font-family:Arial;font-size:37px;">НОВОСТНАЯ ЛЕНТА</span></div>
+</div>
+</body>
+</html>

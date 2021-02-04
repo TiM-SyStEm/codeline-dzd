@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<link href="web-fast-blank.css" rel="stylesheet">
+<link href="codeline.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+<div id="Html1" style="position:absolute;left:58px;top:164px;width:601px;height:368px;z-index:3">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </style></head>
+<body>
+<script>
+let code = localStorage.getItem("rmt_security");
+if(code != null){
+   if(code === "5646ghd7744748484-djina-homyak"){
+      var gen_code = "";
+      function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+      /*for(let i = 0; i < 6; i++){
+         gen_code = gen_code + getRandomInt(10);
+      }*/
+      
+      var latitude = position.coords.latitude;
+      var longitude = position.coords.longitude;
+      gen_code = latitude + ";" + longitude + ";" + getRandomInt(120); //МАКС КОЛИЧЕСТО ЧЕЛОВЕК
+      alert(gen_code);
+      
+      document.write("<center><p id='codeline' style='color: red; font-size: 30px; font-weight: bold;user-select: none;'>Ваш код: " + gen_code + "</p></center>");
+      localStorage.removeItem("rmt_security");
+      
+   }
+   else{
+      document.write("<center><p style='color: red; font-size: 30px; font-weight: bold;user-select: none;'> БИЛЕТ НЕ ОПЛАЧЕН!</p></center>");
+   }
+}
+else{
+   document.write("<center><p style='color: red; font-size: 30px; font-weight: bold;user-select: none;'> БИЛЕТ НЕ ОПЛАЧЕН!</p></center>");
+}
+
+    </script>
+</body>
+</html></div>
+</div>
+<div id="PageHeader1" style="position:absolute;text-align:left;left:0px;top:0px;width:100%;height:121px;z-index:7777;">
+<div id="wb_Image1" style="position:absolute;left:28px;top:0px;width:103px;height:80px;z-index:0;">
+<a href="?https://www.rzd.ru/"><img src="images/rzd.jpg" id="Image1" alt="&#1056;&#1046;&#1044;"></a></div>
+<div id="wb_Text1" style="position:absolute;left:162px;top:31px;width:418px;height:58px;z-index:1;">
+<span style="color:#FFFFFF;font-family:Tahoma;font-size:48px;"><strong>Быстрый Билет</strong></span></div>
+<div id="wb_Text2" style="position:absolute;left:40px;top:61px;width:78px;height:35px;z-index:2;">
+<span style="color:#FFFFFF;font-family:Tahoma;font-size:29px;"><strong>ДЖД</strong></span></div>
+</div>
+</body>
+</html>
